@@ -67,7 +67,7 @@
                                 <div class="top-area section-text">
                                     <h1 class="mb-3">Made by players, for players.</h1>
                                     <p class="xlr">We've engineered our socks to provide the best in comfort and performance right at your feet.</p>
-                                    <small style="font-style:italic;">Sign-Up to be notified when Pre-Orders are available and to receive an exlcusive first-in discount.</small>
+                                    <small style="font-style:italic;">Sign-Up to be notified when Pre-Orders are available and to go in the draw to receive an exlcusive free sample pack.</small>
                                 </div>
                                 <div class="btn-area gap-3 d-flex flex-wrap">
                                     <a href="#signUps" class="cmn-btn">Notify Me</a>
@@ -224,10 +224,13 @@
                         </div>
                         <div class="btn-area">
                             <div class="single-input">
-                                <label for="commentName">Receive an exclusive pre-release discount</label>
-                                <input type="text" id="commentName" placeholder="Enter Your Email">
-                                <input class="mt-2" type="text" id="commentName" placeholder="Enter Your Name">
-                                <button type="submit" class="cmn-btn mt-3" style="width:100%;">Submit<i style="margin-left:10px;" class="fas fa-paper-plane"></i></button>
+                                <form action="signup" netlify>
+                                    <label for="commentName">Receive an exclusive pre-release discount</label>
+                                    <input type="text" id="commentName" placeholder="Enter Your Email" name="email">
+                                    <input class="mt-2" type="text" id="commentName" placeholder="Enter Your Name" name="name">
+                                    <button type="submit" class="cmn-btn mt-3" style="width:100%;">Submit<i style="margin-left:10px;" class="fas fa-paper-plane"></i></button>
+                                </form>
+
                             </div>
                         </div>
                     </div>
